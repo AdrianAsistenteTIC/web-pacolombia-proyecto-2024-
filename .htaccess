@@ -1,0 +1,3 @@
+Options All -Indexes
+ErrorDocument 404 /web-pacolombia-proyecto-2024/public/alert-404-and-403/404.php
+ErrorDocument 403 /web-pacolombia-proyecto-2024/public/alert-404-and-403/403.php

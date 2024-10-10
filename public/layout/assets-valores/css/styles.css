@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Mont-SemiBold';
+  src: url('../fonts/Mont-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'interstate-bold-italic';
+  src: url('../fonts/interstate-bold-italic.ttf');
+}
+
+:root {
+  --body-font-sans-serif: 'Mont-SemiBold', sans-serif;
+  --body-font-italic: 'interstate-bold-italic', italic;
+  --body-font-monospace: sans-serif, italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: var(--body-font-sans-serif);
+  margin: 0;
+  padding: 20px;
+  height: 100vh;
+}
+
+.image-list {
+  display: flex;
+  flex-direction: column;
+  /* Apila las tarjetas verticalmente */
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  /* Limita el tamaño máximo del contenido */
+  margin: auto;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 30%; /* Tamaño inicial reducido al 30% */
+  transition: max-width 0.3s ease;
+}
+
+.image-container img {
+  width: 115%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-container .hover-image {
+  position: absolute;
+  top: 0;
+  left: 100%; /* Posiciona la imagen hover justo después de la imagen original */
+  width: 125%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.3s ease, left 0.3s ease;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image-container:hover .hover-image {
+  left: 8; /* Mueve la imagen hover sobre la original */
+  opacity: 1;
+  transform: scaleX(2.6); /* Estira la imagen solo a lo ancho */
+}
+
+.image-container:hover .original {
+  opacity: 0;
+}
+
+.overlay {
+  position: absolute;
+  bottom: -50px;
+  top: 50%;
+  left: 10%; /* Texto a la izquierda de la imagen */
+  width: 160%;
+  font-size: 20px;
+  font-weight: bold;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+  border-radius: 0 0 15px 15px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .image-container {
+    height: 120px; /* Tarjetas más pequeñas en pantallas medianas */
+  }
+
+  .image-container:hover {
+    height: 250px; /* Se alargan menos en pantallas medianas */
+  }
+
+  .overlay {
+    font-size: 16px; /* Texto más pequeño en pantallas medianas */
+  }
+
+  .image-container img {
+    height: 100%; /* Las imágenes siguen ocupando todo el contenedor, pero se adaptan al tamaño */
+    width: 345%;
+  }
+
+  .image-container .hover-image {
+    height: 100%; /* Las imágenes siguen ocupando todo el contenedor, pero se adaptan al tamaño */
+    width: 345%;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-container {
+    height: 100px; /* Tarjetas aún más pequeñas en pantallas móviles */
+  }
+
+  .image-container:hover {
+    height: 200px; /* Se alargan menos en pantallas pequeñas */
+  }
+
+  .overlay {
+    font-size: 10px; /* Texto aún más pequeño en pantallas pequeñas */
+  }
+
+  .image-container img {
+    height: 100%; /* Las imágenes siguen adaptándose al tamaño del contenedor */
+    width: 345%;
+  }
+
+  .image-container .hover-image {
+    height: 100%; /* Las imágenes siguen ocupando todo el contenedor, pero se adaptan al tamaño */
+    width: 140%;
+  }
+}
+
+/* Estilo para las barras de desplazamiento en WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho de la scrollbar vertical */
+  height: 12px; /* Altura de la scrollbar horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Fondo del track de la scrollbar */
+  border-radius: 10px; /* Bordes redondeados del track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3); /* Color del thumb de la scrollbar */
+  border-radius: 10px; /* Bordes redondeados del thumb */
+  border: 3px solid transparent; /* Espacio alrededor del thumb para que no esté pegado al track */
+  background-clip: padding-box; /* Para que el borde se vea correctamente */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Color del thumb cuando el usuario pasa el mouse sobre él */
+}
+
+/* Para Firefox (no hay soporte completo para personalización de scrollbars) */
+scrollbar-width: thin; /* Estilo de scrollbar delgado en Firefox */
+scrollbar-color: rgba(0, 0, 0, 0.3) transparent; /* Color del thumb y del track */
