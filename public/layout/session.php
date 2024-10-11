@@ -1,28 +1,28 @@
 <?php
 // Datos de la página de inicio - definidos de manera estática
 $index_panel = [
-    'titulo1' => 'P.A. - COLOMBIA.',
-    'portada' => 'bower_components/img/portafolio/IMAGEN1.jpg',
-    'portada_concremack' => 'bower_components/img/portafolio/fondo-concremack.png',
-    'portada_pei' => 'bower_components/img/portafolio/fondo-pei.png',
-    'imagen_pa_one' => 'bower_components/img/logo/Logo-PA-Colombia-color-2.png',
-    'imagen_pa_two' => 'bower_components/img/logo/Logo-PA-Colombia-color-2.png',
-    'imagen_pais' => 'bower_components/img/logo/pais.png',
-    'card-titulo1' => 'LÍNEAS DE NEGOCIO',
-    'link_conoce_mas1' => 'Conoce más',
-    'card-coment1' => '',
-    'comentario-hse-one' => 'Campañas preventivas y
+  'titulo1' => 'P.A. - COLOMBIA.',
+  'portada' => 'bower_components/img/portafolio/IMAGEN1.jpg',
+  'portada_concremack' => 'bower_components/img/portafolio/fondo-concremack.jpg',
+  'portada_pei' => 'bower_components/img/portafolio/fondo-pei.jpg',
+  'imagen_pa_one' => 'bower_components/img/logo/Logo-PA-Colombia-color-2.png',
+  'imagen_pa_two' => 'bower_components/img/logo/Logo-PA-Colombia-color-2.png',
+  'imagen_pais' => 'bower_components/img/logo/pais.png',
+  'card-titulo1' => 'LÍNEAS DE NEGOCIO',
+  'link_conoce_mas1' => 'Conoce más',
+  'card-coment1' => '',
+  'comentario-hse-one' => 'Campañas preventivas y
 divulgación de lineamientos
 HSE para promover el uso
 apropiado de EPP según la
 naturaleza de la actividad.',
-    'comentario-hse-two' => 'Inspección
+  'comentario-hse-two' => 'Inspección
 preoperacional de los
 equipos y maquinaria,
 simulacros en caso de
 emergencia',
-    'card-titulo2' => 'INTRODUCCIÓN',
-    'card-coment2' => 'En P.A. - Colombia, nos destacamos como una empresa de ingeniería,
+  'card-titulo2' => 'INTRODUCCIÓN',
+  'card-coment2' => 'En P.A. - Colombia, nos destacamos como una empresa de ingeniería,
 obras civiles e infraestructura, con una sólida trayectoria de más de
 23 años construyendo los proyectos que mueven al país. Contamos con
 la experiencia, el personal calificado, la capacidad de contratación, así
@@ -33,50 +33,50 @@ sostenibilidad, logrando reducir 305,40 toneladas de CO2eq en 2023.
 Nuestra evolución y crecimiento van de la mano con una dedicación
 inquebrantable a la responsabilidad ambiental, dejando una huella
 verde en cada proyecto',
-    'imagen_banner1' => 'bower_components/img/portafolio/CARD1.png',
-    'title1' => 'INFRAESTRUCTURA OIL & GAS',
-    'coment1' => 'Conoce más sobre nuestros servicios y lo que ofrecemos.',
-    'imagen_banner2' => 'bower_components/img/portafolio/CARD2.png',
-    'title2' => 'INFRAESTRUCTURA OBRAS CIVILES',
-    'coment2' => 'Conoce más sobre nuestros servicios y lo que ofrecemos.',
-    'imagen_banner3' => 'bower_components/img/portafolio/CARD3.png',
-    'title3' => 'INFRAESTRUCTURA OBRAS VIALES',
-    'coment3' => 'Conoce más sobre nuestros servicios y lo que ofrecemos.',
-    'title_seven' => 'NUESTROS CLIENTES',
-    'title_hse' => 'GESTIÓN HSE',
-    'comentario_hse_three' => 'Nuestra gestión en HSE, ha sido destacada por nuestros
+  'imagen_banner1' => 'bower_components/img/portafolio/CARD1.png',
+  'title1' => 'INFRAESTRUCTURA OIL & GAS',
+  'coment1' => 'Conoce más sobre nuestros servicios y lo que ofrecemos.',
+  'imagen_banner2' => 'bower_components/img/portafolio/CARD2.png',
+  'title2' => 'INFRAESTRUCTURA OBRAS CIVILES',
+  'coment2' => 'Conoce más sobre nuestros servicios y lo que ofrecemos.',
+  'imagen_banner3' => 'bower_components/img/portafolio/CARD3.png',
+  'title3' => 'INFRAESTRUCTURA OBRAS VIALES',
+  'coment3' => 'Conoce más sobre nuestros servicios y lo que ofrecemos.',
+  'title_seven' => 'NUESTROS CLIENTES',
+  'title_hse' => 'GESTIÓN HSE',
+  'comentario_hse_three' => 'Nuestra gestión en HSE, ha sido destacada por nuestros
 clientes, especialmente en actividades críticas. Agradecemos el
 reconocimiento y reafirmamos nuestro compromiso continuo con
 la seguridad y el bienestar de nuestro equipo.',
-    'comentario_aliados' => 'Contamos con la habilidad y la oportunidad de intervenir en cada
+  'comentario_aliados' => 'Contamos con la habilidad y la oportunidad de intervenir en cada
 departamento del territorio nacional, dejando un impacto tangible y
 perdurable en la comunidad a través de nuestras obras.',
-    'imagen_one' => 'bower_components/img/portafolio/fondo3.jpg',
-    'imagen_two' => 'bower_components/img/portafolio/fondo4.jpg',
-    'titulo-five' => 'Gracias al compromiso con la seguridad
+  'imagen_one' => 'bower_components/img/portafolio/fondo3.jpg',
+  'imagen_two' => 'bower_components/img/portafolio/fondo4.jpg',
+  'titulo-five' => 'Gracias al compromiso con la seguridad
 aseguramos cada proceso con nuestra política de:',
-'titulo-five-accidentes' => '0 ACCIDENTES E INCIDENTES',
-    'comentario-five' => 'En la ejecución de cada uno de nuestros proyectos, impera la responsabilidad
+  'titulo-five-accidentes' => '0 ACCIDENTES E INCIDENTES',
+  'comentario-five' => 'En la ejecución de cada uno de nuestros proyectos, impera la responsabilidad
 con la vida, la seguridad y el bienestar de nuestros colaboradores. Por este
 motivo, garantizamos un entorno laboral seguro y protegido, mediante el
 análisis de la gestión de riesgos, cumpliendo con los requisitos de la norma
 NTC ISO 31000: 2018 al implementar estrategias de prevención de
 accidentes e incidentes como:',
-    'titulo_pa_one' => 'CERTIFICACIONES',
-    'comentario_pa_one' => 'Para garantizar los máximos niveles de calidad que permitan satisfacer las
+  'titulo_pa_one' => 'CERTIFICACIONES',
+  'comentario_pa_one' => 'Para garantizar los máximos niveles de calidad que permitan satisfacer las
 necesidades de nuestros clientes, todas nuestras actividades están
 certificadas según las normas internacionales',
-    'imagen_six' => 'bower_components/img/portafolio/IMAGEN1.jpg',
-    'title_nacional1' => 'COBERTURA',
-    'title_nacional2' => 'NACIONAL',
-    'title_reloj' => 'CARGANDO HORA...',
-    'title_aliados' => 'ALIADOS ESTRATÉGICOS',
-    'imagen_concremack' => 'bower_components/img/logo/logo-empresa/Recurso-10Logo-Concremack-largo-BN.png',
-    'title_concremack' => 'CONCREMACK',
-    'imagen_pei' => 'bower_components/img/logo/logo-empresa/Logo-PEI-BN.png',
-    'title_pei' => 'PEI PERFORACIONES E INGENIERÍA',
-    'imagen_hse1' => 'bower_components/img/portafolio/personas1.jpeg',
-    'imagen_hse2' => 'bower_components/img/portafolio/maquina1.jpg',
+  'imagen_six' => 'bower_components/img/portafolio/IMAGEN1.jpg',
+  'title_nacional1' => 'COBERTURA',
+  'title_nacional2' => 'NACIONAL',
+  'title_reloj' => 'CARGANDO HORA...',
+  'title_aliados' => 'ALIADOS ESTRATÉGICOS',
+  'imagen_concremack' => 'bower_components/img/logo/logo-empresa/Recurso-10Logo-Concremack-largo-BN.png',
+  'title_concremack' => 'CONCREMACK',
+  'imagen_pei' => 'bower_components/img/logo/logo-empresa/Logo-PEI-BN.png',
+  'title_pei' => 'PEI PERFORACIONES E INGENIERÍA',
+  'imagen_hse1' => 'bower_components/img/portafolio/personas1.jpeg',
+  'imagen_hse2' => 'bower_components/img/portafolio/maquina1.jpg',
 ];
 ?>
 <!-- CARDS VIEW -->
@@ -216,8 +216,8 @@ certificadas según las normas internacionales',
         <strong>
           <b>
             <code>
-                  <?php echo htmlspecialchars($index_panel['card-titulo2']); ?>
-                </code>
+              <?php echo htmlspecialchars($index_panel['card-titulo2']); ?>
+            </code>
           </b>
         </strong>
       </span>
@@ -436,9 +436,9 @@ certificadas según las normas internacionales',
           <strong>
             <b>
               <code>
-                  <?php echo htmlspecialchars($index_panel['title_nacional1']); ?>
-                  <?php echo htmlspecialchars($index_panel['title_nacional2']); ?>
-                </code>
+                <?php echo htmlspecialchars($index_panel['title_nacional1']); ?>
+                <?php echo htmlspecialchars($index_panel['title_nacional2']); ?>
+              </code>
             </b>
           </strong>
         </span>
@@ -523,7 +523,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 1 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente1.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente1.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -532,7 +532,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 2 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente2.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente2.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -541,7 +541,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 3 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente3.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente3.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -550,7 +550,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 4 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente4.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente4.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -559,7 +559,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 5 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente5.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente5.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -568,7 +568,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 6 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente6.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente6.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -577,7 +577,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 7 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente7.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente7.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -586,7 +586,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 8 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente8.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente8.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -595,7 +595,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 9 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente9.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente9.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -604,7 +604,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 10 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente10.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente10.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -613,7 +613,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 11 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente11.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente11.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -622,7 +622,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 12 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente12.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente12.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -631,7 +631,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 13 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente13.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente13.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -640,7 +640,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 14 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente14.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente14.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -649,7 +649,7 @@ certificadas según las normas internacionales',
       <!-- Swiper item 15 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente15.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente15.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
@@ -658,7 +658,16 @@ certificadas según las normas internacionales',
       <!-- Swiper item 16 -->
       <div class="swiper-slide">
         <div class="mb-3">
-          <image src="bower_components/img/logo/clientes/cliente16.png" class="d-dark-mode-none d-inline-block"
+          <image src="bower_components/img/logo/clientes/cliente16.jpg" class="d-dark-mode-none d-inline-block"
+            alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
+            title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
+        </div>
+      </div>
+
+      <!-- Swiper item 17 -->
+      <div class="swiper-slide">
+        <div class="mb-3">
+          <image src="bower_components/img/logo/clientes/cliente17.jpg" class="d-dark-mode-none d-inline-block"
             alt="<?php echo htmlspecialchars($index_panel['titulo1']); ?>"
             title="<?php echo htmlspecialchars($index_panel['titulo1']); ?>" />
         </div>
